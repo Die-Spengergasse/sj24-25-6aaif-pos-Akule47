@@ -7,7 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SPG_Fachtheorie.Aufgabe1", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SPG_Fachtheorie.Aufgabe1.Test", "test\SPG_Fachtheorie.Aufgabe1.Test\SPG_Fachtheorie.Aufgabe1.Test.csproj", "{437B53DC-BA0A-4C7D-AB66-62D28895D7C7}"
 EndProject
+exercise/04_put_patch_requests
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SPG_Fachtheorie.Aufgabe3", "src\SPG_Fachtheorie.Aufgabe3\SPG_Fachtheorie.Aufgabe3.csproj", "{718F338B-725B-4FE9-ABA0-614E1F38CF49}"
+
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SPG_Fachtheorie.Aufgabe3", "src\SPG_Fachtheorie.Aufgabe3\SPG_Fachtheorie.Aufgabe3.csproj", "{718F338B-725B-4FE9-ABA0-614E1F38CF49}"
+main
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
