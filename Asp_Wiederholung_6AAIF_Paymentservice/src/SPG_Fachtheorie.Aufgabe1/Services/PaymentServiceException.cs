@@ -16,5 +16,7 @@ namespace SPG_Fachtheorie.Aufgabe1.Services
         public PaymentServiceException(string? message, Exception? innerException) : base(message, innerException)
         {
         }
+
+        public bool IsNotFoundError { get; set; }
     }
 }
