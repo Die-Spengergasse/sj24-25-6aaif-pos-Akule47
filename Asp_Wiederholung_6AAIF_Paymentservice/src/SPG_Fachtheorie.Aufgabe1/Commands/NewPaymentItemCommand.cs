@@ -21,5 +21,19 @@ namespace SPG_Fachtheorie.Aufgabe1.Commands
 
     [Range(1, int.MaxValue, ErrorMessage = "PaymentId must be a positive integer.")]
     Payment Payment
-    );
+    )
+    {
+        private string v1;
+        private int v2;
+        private decimal v3;
+        private int paymentId;
+
+        public NewPaymentItemCommand(string v1, int v2, decimal v3, int paymentId)
+        {
+            this.v1 = v1;
+            this.v2 = v2;
+            this.v3 = v3;
+            this.paymentId = paymentId;
+        }
+    }
 }
